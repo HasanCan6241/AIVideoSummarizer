@@ -1,7 +1,10 @@
 # 📝 Django Web-Based Video & YouTube Summary Tool
 
 ## 🎯 Project Overview
-This project is a **Django web application** that provides a comprehensive solution for extracting and summarizing text from both **YouTube videos** and **locally uploaded videos**. The application utilizes **machine learning models** to deliver concise, high-quality summaries using advanced natural language processing techniques.
+This project is a Django web application that provides a comprehensive solution for extracting and summarizing text from both YouTube videos and locally uploaded videos. The application utilizes deep learning models to deliver concise, high-quality summaries using advanced natural language processing (NLP) techniques.
+
+## 🚀 Project Goals
+The main objective of this project is to make video content more accessible and easy to consume by providing users with summaries of lengthy videos. Whether users need quick insights from a YouTube video or want to condense the information from their own media, this tool simplifies the process through automation and deep learning-powered NLP.
 
 ## 💡 Features
 - **Home Page**: 
@@ -22,9 +25,6 @@ This project is a **Django web application** that provides a comprehensive solut
 - **MoviePy**: Extracts audio and text from videos.
 - **Transformers**: Leverages HuggingFace's transformer models for summarization.
 - **youtube_transcript_api**: Extracts transcripts from YouTube videos.
-
-## 🚀 Project Goals
-The main objective of this project is to make **video content more accessible** and **easy to consume** by providing users with **summaries** of lengthy videos. Whether users need quick insights from a YouTube video or want to condense the information from their own media, this tool simplifies the process through automation and machine learning.
 
 ## 💼 Benefits to Users
 - **Saves Time**: Instantly extract summaries from lengthy videos, allowing users to focus on key insights.
