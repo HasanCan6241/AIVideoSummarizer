@@ -16,12 +16,12 @@ This project is a **Django web application** that provides a comprehensive solut
    - Users can upload a video from their local device.
    - The transcript is generated from the video, followed by summarization using the **same AI model**.
 
-## 🔧 Technologies & Libraries Used
-- **Django 5.1.2**: Web framework for building the application.
-- **Torch 2.5.0**: Used for deep learning tasks.
-- **MoviePy 1.0.3**: Extracts audio and text from videos.
-- **Transformers 4.45.2**: Leverages HuggingFace's transformer models for summarization.
-- **youtube_transcript_api 0.6.2**: Extracts transcripts from YouTube videos.
+## 🔧 Libraries Used
+- **Django**: Web framework for building the application.
+- **Torch**: Used for deep learning tasks.
+- **MoviePy**: Extracts audio and text from videos.
+- **Transformers**: Leverages HuggingFace's transformer models for summarization.
+- **youtube_transcript_api**: Extracts transcripts from YouTube videos.
 
 ## 🚀 Project Goals
 The main objective of this project is to make **video content more accessible** and **easy to consume** by providing users with **summaries** of lengthy videos. Whether users need quick insights from a YouTube video or want to condense the information from their own media, this tool simplifies the process through automation and machine learning.
@@ -66,7 +66,18 @@ Feel free to contribute to this project by submitting a pull request or reportin
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/HasanCan6241/AIVideoSummarizer.git
-   cd AIVideoSummarizer
-
+    ```bash
+    git clone https://github.com/HasanCan6241/AIVideoSummarizer.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd AIVideoSummarizer
+    ```
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. Run the Django server:
+    ```bash
+    python manage.py runserver
+    ```
